@@ -38,6 +38,7 @@ ul{
 .navlogo{
     margin-right: auto;
     font-size: 32px;
+    color: black;
 }
 
 .navlink, .navlogo{
@@ -50,4 +51,7 @@ ul{
 
 .navlink:hover{
     color: black;
+}
+.navlogo:hover{
+    font-weight: bold;
 }
