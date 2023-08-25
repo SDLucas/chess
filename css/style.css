@@ -1,4 +1,3 @@
-
 body, html{
     margin:0;
     padding:0;
@@ -22,6 +21,7 @@ ul{
     margin-left: 32px;
     padding-left: 0;
     padding-right: 0;
+    align-items: center;
 }
 
 .navitem{
@@ -31,6 +31,23 @@ ul{
     /*border: 2px solid black;*/
 }
 
+.navitem{
+    font-size: 20px;
+}
+
 .navlogo{
     margin-right: auto;
+    font-size: 32px;
+}
+
+.navlink, .navlogo{
+    text-decoration: none;
+}
+
+.navlink{
+    color: #333333 ;
+}
+
+.navlink:hover{
+    color: black;
 }
