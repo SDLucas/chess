@@ -1,0 +1,38 @@
+* {
+    /*border: 1px red solid;*/
+}
+body, html{
+    margin:0;
+    padding:0;
+}
+header{
+    display: flex;
+    justify-content: stretch;
+    height: 50px;
+    background-color: goldenrod;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex: 1;
+    gap: 50px;
+    margin-right: 32px;
+    margin-left: 32px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navitem{
+    flex-basis: auto;
+    display: flex;
+    justify-content: center;
+    /*border: 2px solid black;*/
+}
+
+.navlogo{
+    margin-right: auto;
+}
